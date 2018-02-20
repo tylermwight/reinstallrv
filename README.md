@@ -2,7 +2,7 @@
 fully reinstalls rise vision player
 
 
-#To install on Linux:
+# To install on Linux:
 
 
 64 bit:
@@ -22,7 +22,7 @@ wget -O - https://raw.githubusercontent.com/tylermwight/reinallrv/master/lnx_rei
 ```
 
 
-##To install on Windows:
+# To install on Windows:
 
 64 bit:
 
