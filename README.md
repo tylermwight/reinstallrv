@@ -2,7 +2,7 @@
 fully reinstalls rise vision player
 
 
-##To install on Linux open up the terminal and enter this command:
+#To install on Linux open up the terminal and enter this command:
 64 bit:
 
 ```
