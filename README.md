@@ -1,6 +1,7 @@
 # reinstallrv
 These scripts will fully uninstall Rise Player and start a new install. This is to fix issues where an old rvplayer install prevents Rise Player from running properly.
 
+Note: the "uninstall" is acheived by renaming the rvplayer folder. This way we can keep the whole install directory of an old file incase there is a bug, which allows the appropriate team to look at the old files to see what caused the issue.
 
 ## To install on Linux:
 
