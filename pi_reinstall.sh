@@ -2,7 +2,7 @@
 url="http://install-versions.risevision.com/installer-lnx-armv7l.sh"
 outpath="$HOME/installer-lnx-armv7l.sh"
 dte=$(date +%Y-%m-%d)
-name="$(whoami)"
+
 
 echo "$HOME/rvplayer"
 
@@ -14,6 +14,7 @@ fi
 
 if [ -d "$HOME/rvplayer" ]; then
 	mv $HOME/rvplayer $HOME/rvplayer_$dte
+	rm -rf $HOME/rvplayer_$dte/RiseCache
 	echo "old install renamed"
 else
 	echo "rvplayer not installed"
@@ -21,11 +22,13 @@ else
 fi
 	
 	
-if [ -f "$HOME/installer-lnx-armv7l.sh" ]; then
-	rm $HOME/installer-lnx-armv7l.sh
+if [ -f "$outpath" ]; then
+	rm $outpath
 	echo "old script found, deleting"
 fi
 
+mkdir $HOME/rvplayer
+cp $HOME/rvplayer_$dte/RiseDisplayNetworkII.ini $HOME/rvplayer 
 
-wget -O "$HOME/installer-lnx-armv7l.sh" $url
-bash $HOME/installer-lnx-armv7l.sh
+wget -O "$outpath" $url
+bash $outpath
