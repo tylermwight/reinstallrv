@@ -1,5 +1,5 @@
 # reinstallrv
-fully reinstalls rise vision player
+These scripts will fully uninstall Rise Player and start a new install. This is to fix issues where an old rvplayer install prevents Rise Player from running properly.
 
 
 ## To install on Linux:
