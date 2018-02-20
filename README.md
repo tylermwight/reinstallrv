@@ -27,12 +27,12 @@ wget -O - https://raw.githubusercontent.com/tylermwight/reinstallrv/master/lnx_r
 
 ### 64 bit:
 
-1. Download this file: https://cdn.rawgit.com/tylermwight/reinstallrv/300eefa0/win_reinstall_64.ps1
+1. Download this file: https://cdn.rawgit.com/tylermwight/reinstallrv/79ab4a05/win_reinstall_64.ps1
 2. Browse to it's location, right click, "run with powershell"
 
 ### 32 bit:
 
-1. Download this file: https://cdn.rawgit.com/tylermwight/reinstallrv/300eefa0/win_reinstall_32.ps1
+1. Download this file: https://cdn.rawgit.com/tylermwight/reinstallrv/79ab4a05/win_reinstall_32.ps1
 2. Browse to it's location, right click, "run with powershell"
 
 
