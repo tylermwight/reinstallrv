@@ -2,14 +2,20 @@
 fully reinstalls rise vision player
 
 
-#To install on Linux open up the terminal and enter this command:
+#To install on Linux:
+
+
 64 bit:
+
+1. open up the terminal and enter this command:
 
 ```
 wget -O - https://raw.githubusercontent.com/tylermwight/reinallrv/master/lnx_reinstall_64.sh | bash
 ```
 
 32 bit:
+
+1. open up the terminal and enter this command:
 
 ```
 wget -O - https://raw.githubusercontent.com/tylermwight/reinallrv/master/lnx_reinstall_32.sh | bash
